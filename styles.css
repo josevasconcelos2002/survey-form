@@ -2,7 +2,7 @@
 
 
 h1{
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 h1,p{
   text-align: center;
@@ -25,13 +25,15 @@ fieldset{
 }
 
 form{
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 2rem 2rem;
   width: 50vw;
   background-color: #0a0a5EC4;
   min-width: 450px;
   max-width: 550px;
   font-weight: 500;
+  border: 3px solid #0a0a5EC4;
+  border-radius: 8px;
 }
 
 body{
@@ -59,7 +61,7 @@ body{
 
 .inline{
   width: unset;
-  margin: 3px 0.9em 5px 0.5em;
+  margin: 3px 0.9em 2px 0.9em;
   vertical-align: middle;
 }
 
@@ -100,7 +102,13 @@ body{
   border: 2px solid rgb(0,200,100);
   border-radius: 4px;
   color: white;
-  padding: 0.75rem;
+  padding: 0.90rem;
+  padding-right: 1.2rem;;
   font-size: 14px;
   font-weight: 550;
+}
+
+#submit:hover{
+    background-color: #0a0a5E99;
+    color: rgb(0,200,100);
 }
